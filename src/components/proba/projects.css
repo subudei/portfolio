@@ -1,0 +1,36 @@
+.gsap__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #24221f;
+  color: white;
+  width: 100vw;
+  height: 50vh;
+  z-index: 1;
+}
+
+.gsap__container .gsap__title {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 6vw;
+  font-weight: bold;
+  padding-left: 15vw;
+  overflow: hidden;
+}
+
+.gsap__container .gsap__title .gsap__box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background: blue;
+  height: 1vw;
+}
+
+.gsap__container .gsap__title .gsap__greedings {
+  display: inline-block;
+  z-index: 3;
+}
+/*# sourceMappingURL=projects.css.map */
