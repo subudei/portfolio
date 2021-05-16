@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+.hero__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 55vw;
+  height: 70vh;
+  background-color: #3d3d3d;
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.hero__container .hello__div {
+  width: 100%;
+  height: 40vh;
+  background-color: #432f8f;
+  position: relative;
+}
+
+.hero__container .hello__div .h__drop {
+  background-color: #db2779;
+  height: 30.4vh;
+  width: 1.5vh;
+  top: -42vh;
+  border-radius: 1vh;
+  position: absolute;
+  left: 7.5vh;
+  opacity: 1;
+  z-index: 5;
+}
+
+.hero__container .hello__div .h__letter {
+  position: absolute;
+  bottom: 0;
+  left: 7vh;
+  font-family: "Teko", sans-serif;
+  font-size: 12vh;
+  font-weight: 600;
+  line-height: 0.6;
+  color: #db2779;
+  opacity: 0;
+}
+
+.hero__container .hello__div .i__drop {
+  position: absolute;
+  top: -3vh;
+  left: 14.9vh;
+  width: 1vh;
+  height: 1vh;
+  border-radius: 50%;
+  border: 0.5vh solid #a4db32;
+  opacity: 1;
+  z-index: 5;
+}
+
+.hero__container .hello__div .i__letter {
+  position: absolute;
+  left: 15vh;
+  bottom: 0.7vh;
+  bottom: -15vh;
+  height: 5vh;
+  width: 1.8vh;
+  background-color: #db2779;
+}
+
+.hero__container .hello__div .web__coma {
+  position: absolute;
+  left: 18vh;
+  bottom: 0;
+  font-size: 7.5vh;
+  font-weight: 600;
+  color: #db2779;
+  opacity: 0;
+}
+
+.hero__container .hello__div .i__dev {
+  position: absolute;
+  bottom: -15vh;
+  left: 7vh;
+  font-size: 10.5vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #db2779;
+  opacity: 1;
+}
+
+.hero__container .hello__div .m__dev {
+  position: absolute;
+  left: -10vh;
+  bottom: 0;
+  font-size: 9.5vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #db2779;
+  opacity: 1;
+}
+
+.hero__container .hello__div .paravan__box {
+  position: absolute;
+  bottom: 0;
+  left: 0vh;
+  background-color: #432f8f;
+  z-index: 5;
+}
+
+.hero__container .hello__div .a__dev {
+  position: absolute;
+  left: 23vh;
+  bottom: 0;
+  font-size: 9.5vh;
+  font-weight: 600;
+  line-height: 0.9;
+  color: #db2779;
+  opacity: 0;
+}
+
+.hero__container .hello__div .web__box {
+  position: absolute;
+  left: 90vh;
+  bottom: 0vh;
+  width: 22vh;
+  height: 11vh;
+  background-color: #432f8f;
+  z-index: 5;
+}
+
+.hero__container .hello__div .web__dev {
+  position: absolute;
+  bottom: 0;
+  left: 90vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 0.9;
+  color: #a4db32;
+}
+
+.hero__container .message__div {
+  width: 100%;
+  height: 30vh;
+  background-color: #432f8f;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero__container .message__div .developer__dev {
+  position: absolute;
+  top: 0vh;
+  left: -17vh;
+  opacity: 1;
+  color: #a4db32;
+  font-size: 9.5vh;
+  font-weight: 600;
+}
+
+.hero__container .message__div .developer__o {
+  position: absolute;
+  left: 31.2vh;
+  top: 0vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  color: #a4db32;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__e {
+  position: absolute;
+  top: -15vh;
+  left: 23vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  opacity: 0;
+  color: #db2779;
+}
+
+.hero__container .message__div .developer__l {
+  position: absolute;
+  top: 0;
+  left: 28.3vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  color: #db2779;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__p {
+  position: absolute;
+  top: 0;
+  left: 36.7vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  opacity: 0;
+  color: #db2779;
+}
+
+.hero__container .message__div .developer__ee {
+  position: absolute;
+  top: 0;
+  left: 23vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  color: #db2779;
+  z-index: 5;
+  opacity: 0;
+}
+
+.hero__container .message__div .developer__r {
+  position: absolute;
+  top: 10vh;
+  left: 47.8vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  opacity: 1;
+  color: #db2779;
+}
+
+.hero__container .message__div .r__shield {
+  position: absolute;
+  top: 10vh;
+  left: 47vh;
+  height: 10vh;
+  width: 6vh;
+  background-color: #432f8f;
+}
+
+.hero__container .message__div .developer__dot {
+  position: absolute;
+  top: 0vh;
+  left: 51vh;
+  font-size: 9.5vh;
+  font-weight: 600;
+  color: #db2779;
+  opacity: 0;
+}
+
+.hero__container .developer__l__drop {
+  position: absolute;
+  top: -53vh;
+  left: 28.5vh;
+  width: 1vh;
+  height: 52vh;
+  border: 0.5vh solid #db2779;
+  border-radius: 2vh;
+  z-index: 5;
+}
+
+@media screen and (max-width: 1200px) {
+  .hero__container {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .hero__container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container {
+    width: 100vw;
+  }
+}
+/*# sourceMappingURL=introAnimation.css.map */

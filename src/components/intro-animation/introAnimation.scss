@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+$color1: #432f8f;
+$color2: #db2779;
+$color3: #a4db32;
+$color4: #5e3ddb;
+$color5: #8f134b;
+
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  width: 55vw;
+  height: 70vh;
+  background-color: rgb(61, 61, 61);
+  overflow: hidden;
+  font-family: "Ubuntu", sans-serif;
+
+  .hello__div {
+    width: 100%;
+    height: 40vh;
+    background-color: $color1;
+    position: relative;
+
+    .h__drop {
+      background-color: $color2;
+      height: 30.4vh;
+      width: 1.5vh;
+      top: -42vh;
+      border-radius: 1vh;
+      position: absolute;
+      left: 7.5vh;
+      opacity: 1;
+      z-index: 5;
+    }
+
+    .h__letter {
+      position: absolute;
+      bottom: 0;
+      left: 7vh;
+      font-family: "Teko", sans-serif;
+      font-size: 12vh;
+      font-weight: 600;
+      line-height: 0.6;
+      color: $color2;
+      opacity: 0;
+    }
+
+    .i__drop {
+      position: absolute;
+      top: -3vh;
+      left: 14.9vh;
+      width: 1vh;
+      height: 1vh;
+      border-radius: 50%;
+      border: 0.5vh solid $color3;
+      opacity: 1;
+      z-index: 5;
+    }
+    .i__letter {
+      position: absolute;
+      left: 15vh;
+      bottom: 0.7vh;
+      bottom: -15vh;
+      height: 5vh;
+      width: 1.8vh;
+      background-color: $color2;
+    }
+    .web__coma {
+      position: absolute;
+      left: 18vh;
+      bottom: 0;
+      font-size: 7.5vh;
+      font-weight: 600;
+      color: $color2;
+      opacity: 0;
+    }
+    .i__dev {
+      position: absolute;
+      bottom: -15vh;
+      left: 7vh;
+      font-size: 10.5vh;
+      font-weight: 600;
+      line-height: 0.9;
+      color: $color2;
+      opacity: 1;
+    }
+    .m__dev {
+      position: absolute;
+      left: -10vh;
+      bottom: 0;
+      font-size: 9.5vh;
+      font-weight: 600;
+      line-height: 0.9;
+      color: $color2;
+      opacity: 1;
+    }
+    .paravan__box {
+      position: absolute;
+      bottom: 0;
+      left: 0vh;
+      background-color: $color1;
+      z-index: 5;
+    }
+    .a__dev {
+      position: absolute;
+      left: 23vh;
+      bottom: 0;
+      font-size: 9.5vh;
+      font-weight: 600;
+      line-height: 0.9;
+      color: $color2;
+      opacity: 0;
+    }
+    .web__box {
+      position: absolute;
+      left: 90vh;
+      bottom: 0vh;
+      width: 22vh;
+      height: 11vh;
+      background-color: $color1;
+      z-index: 5;
+    }
+    .web__dev {
+      position: absolute;
+      bottom: 0;
+      left: 90vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      font-style: italic;
+      line-height: 0.9;
+      color: $color3;
+    }
+  }
+  .message__div {
+    width: 100%;
+    height: 30vh;
+    background-color: $color1;
+    overflow: hidden;
+    position: relative;
+
+    .developer__dev {
+      position: absolute;
+      top: 0vh;
+      left: -17vh;
+      opacity: 1;
+      color: $color3;
+      font-size: 9.5vh;
+      font-weight: 600;
+    }
+    .developer__o {
+      position: absolute;
+      left: 31.2vh;
+      top: 0vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      color: $color3;
+      opacity: 0;
+    }
+    .developer__e {
+      position: absolute;
+      top: -15vh;
+      left: 23vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      opacity: 0;
+      color: $color2;
+    }
+    .developer__l {
+      position: absolute;
+      top: 0;
+      left: 28.3vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      color: $color2;
+      opacity: 0;
+    }
+    .developer__p {
+      position: absolute;
+      top: 0;
+      left: 36.7vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      opacity: 0;
+      color: $color2;
+    }
+    .developer__ee {
+      position: absolute;
+      top: 0;
+      left: 23vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      color: $color2;
+      z-index: 5;
+      opacity: 0;
+    }
+    .developer__r {
+      position: absolute;
+      top: 10vh;
+      left: 47.8vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      opacity: 1;
+      color: $color2;
+    }
+    .r__shield {
+      position: absolute;
+      top: 10vh;
+      left: 47vh;
+      height: 10vh;
+      width: 6vh;
+      background-color: $color1;
+    }
+    .developer__dot {
+      position: absolute;
+      top: 0vh;
+      left: 51vh;
+      font-size: 9.5vh;
+      font-weight: 600;
+      color: $color2;
+      opacity: 0;
+    }
+  }
+
+  .developer__l__drop {
+    position: absolute;
+    top: -53vh;
+    left: 28.5vh;
+    width: 1vh;
+    height: 52vh;
+    border: 0.5vh solid $color2;
+    border-radius: 2vh;
+    z-index: 5;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero__container {
+    width: 65vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hero__container {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero__container {
+    width: 100vw;
+  }
+}
