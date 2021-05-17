@@ -7,7 +7,8 @@ $color3: #a4db32;
 $color4: #5e3ddb;
 $color5: #8f134b;
 
-.hero__container {
+.animation__container {
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   width: 55vw;
@@ -50,8 +51,8 @@ $color5: #8f134b;
       position: absolute;
       top: -3vh;
       left: 14.9vh;
-      width: 1vh;
-      height: 1vh;
+      width: 1.8vh;
+      height: 1.8vh;
       border-radius: 50%;
       border: 0.5vh solid $color3;
       opacity: 1;

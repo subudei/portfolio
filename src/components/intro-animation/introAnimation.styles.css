@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Teko:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-.hero__container {
+.animation__container {
+  margin-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,14 +16,14 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-.hero__container .hello__div {
+.animation__container .hello__div {
   width: 100%;
   height: 40vh;
   background-color: #432f8f;
   position: relative;
 }
 
-.hero__container .hello__div .h__drop {
+.animation__container .hello__div .h__drop {
   background-color: #db2779;
   height: 30.4vh;
   width: 1.5vh;
@@ -34,7 +35,7 @@
   z-index: 5;
 }
 
-.hero__container .hello__div .h__letter {
+.animation__container .hello__div .h__letter {
   position: absolute;
   bottom: 0;
   left: 7vh;
@@ -46,19 +47,19 @@
   opacity: 0;
 }
 
-.hero__container .hello__div .i__drop {
+.animation__container .hello__div .i__drop {
   position: absolute;
   top: -3vh;
   left: 14.9vh;
-  width: 1vh;
-  height: 1vh;
+  width: 1.8vh;
+  height: 1.8vh;
   border-radius: 50%;
   border: 0.5vh solid #a4db32;
   opacity: 1;
   z-index: 5;
 }
 
-.hero__container .hello__div .i__letter {
+.animation__container .hello__div .i__letter {
   position: absolute;
   left: 15vh;
   bottom: 0.7vh;
@@ -68,7 +69,7 @@
   background-color: #db2779;
 }
 
-.hero__container .hello__div .web__coma {
+.animation__container .hello__div .web__coma {
   position: absolute;
   left: 18vh;
   bottom: 0;
@@ -78,7 +79,7 @@
   opacity: 0;
 }
 
-.hero__container .hello__div .i__dev {
+.animation__container .hello__div .i__dev {
   position: absolute;
   bottom: -15vh;
   left: 7vh;
@@ -89,7 +90,7 @@
   opacity: 1;
 }
 
-.hero__container .hello__div .m__dev {
+.animation__container .hello__div .m__dev {
   position: absolute;
   left: -10vh;
   bottom: 0;
@@ -100,7 +101,7 @@
   opacity: 1;
 }
 
-.hero__container .hello__div .paravan__box {
+.animation__container .hello__div .paravan__box {
   position: absolute;
   bottom: 0;
   left: 0vh;
@@ -108,7 +109,7 @@
   z-index: 5;
 }
 
-.hero__container .hello__div .a__dev {
+.animation__container .hello__div .a__dev {
   position: absolute;
   left: 23vh;
   bottom: 0;
@@ -119,7 +120,7 @@
   opacity: 0;
 }
 
-.hero__container .hello__div .web__box {
+.animation__container .hello__div .web__box {
   position: absolute;
   left: 90vh;
   bottom: 0vh;
@@ -129,7 +130,7 @@
   z-index: 5;
 }
 
-.hero__container .hello__div .web__dev {
+.animation__container .hello__div .web__dev {
   position: absolute;
   bottom: 0;
   left: 90vh;
@@ -140,7 +141,7 @@
   color: #a4db32;
 }
 
-.hero__container .message__div {
+.animation__container .message__div {
   width: 100%;
   height: 30vh;
   background-color: #432f8f;
@@ -148,7 +149,7 @@
   position: relative;
 }
 
-.hero__container .message__div .developer__dev {
+.animation__container .message__div .developer__dev {
   position: absolute;
   top: 0vh;
   left: -17vh;
@@ -158,7 +159,7 @@
   font-weight: 600;
 }
 
-.hero__container .message__div .developer__o {
+.animation__container .message__div .developer__o {
   position: absolute;
   left: 31.2vh;
   top: 0vh;
@@ -168,7 +169,7 @@
   opacity: 0;
 }
 
-.hero__container .message__div .developer__e {
+.animation__container .message__div .developer__e {
   position: absolute;
   top: -15vh;
   left: 23vh;
@@ -178,7 +179,7 @@
   color: #db2779;
 }
 
-.hero__container .message__div .developer__l {
+.animation__container .message__div .developer__l {
   position: absolute;
   top: 0;
   left: 28.3vh;
@@ -188,7 +189,7 @@
   opacity: 0;
 }
 
-.hero__container .message__div .developer__p {
+.animation__container .message__div .developer__p {
   position: absolute;
   top: 0;
   left: 36.7vh;
@@ -198,7 +199,7 @@
   color: #db2779;
 }
 
-.hero__container .message__div .developer__ee {
+.animation__container .message__div .developer__ee {
   position: absolute;
   top: 0;
   left: 23vh;
@@ -209,7 +210,7 @@
   opacity: 0;
 }
 
-.hero__container .message__div .developer__r {
+.animation__container .message__div .developer__r {
   position: absolute;
   top: 10vh;
   left: 47.8vh;
@@ -219,7 +220,7 @@
   color: #db2779;
 }
 
-.hero__container .message__div .r__shield {
+.animation__container .message__div .r__shield {
   position: absolute;
   top: 10vh;
   left: 47vh;
@@ -228,7 +229,7 @@
   background-color: #432f8f;
 }
 
-.hero__container .message__div .developer__dot {
+.animation__container .message__div .developer__dot {
   position: absolute;
   top: 0vh;
   left: 51vh;
@@ -238,7 +239,7 @@
   opacity: 0;
 }
 
-.hero__container .developer__l__drop {
+.animation__container .developer__l__drop {
   position: absolute;
   top: -53vh;
   left: 28.5vh;
@@ -266,4 +267,4 @@
     width: 100vw;
   }
 }
-/*# sourceMappingURL=introAnimation.css.map */
+/*# sourceMappingURL=introAnimation.styles.css.map */

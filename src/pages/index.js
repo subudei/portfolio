@@ -1,7 +1,7 @@
 import * as React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
+import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero/hero"
 
@@ -27,6 +27,9 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
       <Hero />
+      <div className="hero__contact__note">
+        <h2>For any proposal of collaboration, fell free to contact me.</h2>
+      </div>
 
       {/* <Bio /> */}
       {/* <Projects /> */}

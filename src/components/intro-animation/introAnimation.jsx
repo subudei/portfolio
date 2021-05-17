@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import "./introAnimation.css"
+import "./introAnimation.styles.css"
 
 import { gsap } from "gsap"
 
@@ -83,7 +83,7 @@ function IntroAnimation() {
     tl.to(".developer__dot", { opacity: 1, duration: 2 }, "-=0.5")
   }, [])
   return (
-    <div className="hero__container">
+    <div className="animation__container">
       <div className="hello__div">
         <div className="h__letter">H</div>
         <div className="h__drop"></div>

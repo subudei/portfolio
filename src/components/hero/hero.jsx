@@ -5,11 +5,14 @@ import "./hero.styles.css"
 function Hero() {
   return (
     <div className="hero__container">
-      <IntroAnimation />
-      <div className="hero__contact__note">
-        <h2>For any proposal of collaboration, fell free to contact me.</h2>
-      </div>
+      <IntroAnimation className="hero__animation" />
+
+      <div className="scroll__icon">scroll</div>
     </div>
+
+    // <div className="hero__contact__note">
+    //   <h2>For any proposal of collaboration, fell free to contact me.</h2>
+    // </div>
   )
 }
 
