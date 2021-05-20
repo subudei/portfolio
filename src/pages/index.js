@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout/layout"
 import Seo from "../components/seo"
-import Hero from "../components/hero/hero"
+import ScrollAnimation from "../components/scroll-animation/scrollAnimation"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -26,14 +26,9 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Seo title="All posts" />
-      <Hero />
-      <div className="hero__contact__note">
-        <h2>For any proposal of collaboration, fell free to contact me.</h2>
-      </div>
+      <ScrollAnimation />
 
-      {/* <Bio /> */}
-      {/* <Projects /> */}
-      {/* <ol style={{ listStyle: `none` }}>
+      {/* /* <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 

@@ -27,7 +27,7 @@ const Layout = ({ location, title, children }) => {
     <div className="layout__container" data-is-root-path={isRootPath}>
       <Header />
       <main>{children}</main>
-      <footer>© {new Date().getFullYear()}</footer>
+      {/* <footer>© {new Date().getFullYear()}</footer> */}
     </div>
   )
 }

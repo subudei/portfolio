@@ -11,7 +11,7 @@
           flex-direction: column;
   width: 55vw;
   height: 70vh;
-  background-color: #3d3d3d;
+  background-color: #432f8f;
   overflow: hidden;
   font-family: "Ubuntu", sans-serif;
 }
@@ -251,20 +251,30 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .hero__container {
+  .animation__container {
     width: 65vw;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .hero__container {
+  .animation__container {
     width: 80vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .hero__container {
-    width: 100vw;
+  .animation__container {
+    position: absolute;
+    left: -10vw;
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .animation__container {
+    position: absolute;
+    left: -10vw;
+    width: 110%;
   }
 }
 /*# sourceMappingURL=introAnimation.styles.css.map */

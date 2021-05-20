@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 .hero__container {
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   background-color: #432f8f;
   color: #f5f5f5;
   position: relative;
@@ -17,13 +18,96 @@
   padding-left: 5rem;
 }
 
+.hero__container .hero__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15vh;
+  max-width: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 100;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero__container .hero__logo .logo__link {
+  margin-left: 2rem;
+  margin-top: 3rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.4rem;
+  letter-spacing: 0.8rem;
+  line-height: 2.5;
+}
+
 .hero__container .scroll__icon {
-  margin: 2rem auto;
-  width: 4rem;
-  height: 4rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+  top: 70vh;
+  left: 45vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 100;
+}
+
+.hero__container .scroll__icon .scroll__mouse {
+  color: #8f134b;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 5vh;
+  letter-spacing: 0.3vh;
+}
+
+.hero__container .scroll__icon .scroll__arrows {
+  font-size: 5vh;
+  color: #db2779;
+}
+
+.hero__container .contact__ball {
+  width: 6vh;
+  height: 6vh;
+  background-color: #db2779;
+  border-radius: 50%;
+  position: absolute;
+  top: 7vh;
+  right: 5vh;
+  opacity: 0;
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__container .contact__ball .contact__icon {
+  color: #ffffff;
+  font-size: 4vh;
+}
+
+.hero__container .contact__ball:hover {
+  cursor: pointer;
+  background-color: #a4db32;
+}
+
+.hero__container .contact__ball:hover .contact__icon {
+  color: #db2779;
 }
 /*# sourceMappingURL=hero.styles.css.map */

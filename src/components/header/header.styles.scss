@@ -14,25 +14,31 @@ $color5: #8f134b;
   // background-color: rgba(0, 0, 0, 0.2);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   color: #ffffff;
   z-index: 100;
   font-family: "Poppins", sans-serif;
 
-  .header__logo {
-    margin-left: 2rem;
-    font-size: 0.5rem;
-    letter-spacing: 0.8rem;
-    line-height: 2;
+  // .header__logo {
+  //   margin-left: 2rem;
 
-    // color: $color2;
-  }
+  //   .logo__link {
+  //     color: #ffffff;
+  //     text-decoration: none;
+  //     font-size: 0.4rem;
+  //     letter-spacing: 0.8rem;
+  //     line-height: 2;
+  //   }
+  // }
 
   .header__menu {
     display: flex;
 
     .header__link {
+      color: #ffffff;
       margin-right: 2rem;
+      text-decoration: none;
+      list-style: none;
     }
   }
 }

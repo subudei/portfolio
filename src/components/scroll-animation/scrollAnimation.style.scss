@@ -1,0 +1,32 @@
+.scroll__container {
+  position: relative;
+  overflow: hidden;
+  .home__scroll {
+    width: 100%;
+    height: 100vh;
+  }
+  .about__scroll {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .projects__scroll {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .contact__scroll {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+}
