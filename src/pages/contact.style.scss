@@ -2,4 +2,12 @@
   width: 100%;
   min-height: 100vh;
   background-color: #432f8f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .contact__section {
+    color: #ffffff;
+    font-size: 5vh;
+  }
 }

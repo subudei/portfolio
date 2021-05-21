@@ -3,4 +3,13 @@
   min-height: 100vh;
   // background-color: #8f134b;
   background-color: #5e3ddb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .about__section {
+    margin: 20%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-size: 5vh;
+  }
 }

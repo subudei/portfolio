@@ -25,6 +25,11 @@ function ScrollAnimation() {
       // markers: true,
       scrub: true,
       pin: true,
+
+      // snap: {
+      //   snapTo: ["0%", "100%", "200%", "300%", "400%"],
+      //   duration: 0.5,
+      // },
       anticipatePin: 1,
     })
   }, [])

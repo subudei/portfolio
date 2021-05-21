@@ -12,14 +12,14 @@ function Header() {
         </Link>
       </div> */}
       <div className="header__menu">
+        <Link className="header__link" to="/contact/">
+          contact
+        </Link>
         <Link className="header__link" to="/about">
-          <div>about</div>
+          about
         </Link>
         <Link className="header__link" to="/projects/">
-          <div>projects</div>
-        </Link>
-        <Link className="header__link" to="/contact/">
-          <div>contact</div>
+          projects
         </Link>
       </div>
     </div>
