@@ -91,6 +91,7 @@ $color5: #8f134b;
     &:hover {
       cursor: pointer;
       background-color: $color3;
+      transition: 0.4s;
       .contact__icon {
         color: $color2;
       }

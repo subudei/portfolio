@@ -1,5 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+$color1: #432f8f;
+$color2: #db2779;
+$color3: #a4db32;
+$color4: #5e3ddb;
+$color5: #8f134b;
+
 .projects__page__container {
   width: 100%;
   min-height: 100vh;
   background-color: #8f134b;
+  display: flex;
+  flex-direction: column;
+
+  .projects__title {
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
+  }
+
+  .project__container {
+    margin: auto;
+    margin-top: 5rem;
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    position: relative;
+
+    .img__container {
+      width: 50%;
+      background-color: $color5;
+      position: absolute;
+    }
+
+    .project__description {
+      position: absolute;
+      top: 5rem;
+      left: 30rem;
+      height: 10rem;
+      width: 40rem;
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #ffffff;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
 }

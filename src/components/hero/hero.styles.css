@@ -105,6 +105,8 @@
 .hero__container .contact__ball:hover {
   cursor: pointer;
   background-color: #a4db32;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .hero__container .contact__ball:hover .contact__icon {

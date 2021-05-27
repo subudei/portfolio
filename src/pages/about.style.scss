@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
 .about__container {
   width: 100%;
   min-height: 100vh;
@@ -7,9 +10,11 @@
   align-items: center;
   justify-content: center;
   .about__section {
-    margin: 20%;
-    background-color: rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    // background-color: rgba(0, 0, 0, 0.2);
     color: #ffffff;
     font-size: 5vh;
+    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
   }
 }

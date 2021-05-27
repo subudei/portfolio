@@ -1,6 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .projects__page__container {
   width: 100%;
   min-height: 100vh;
   background-color: #8f134b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projects__page__container .projects__title {
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+}
+
+.projects__page__container .project__container {
+  margin: auto;
+  margin-top: 5rem;
+  width: 80%;
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.projects__page__container .project__container .img__container {
+  width: 50%;
+  background-color: #8f134b;
+  position: absolute;
+}
+
+.projects__page__container .project__container .project__description {
+  position: absolute;
+  top: 5rem;
+  left: 30rem;
+  height: 10rem;
+  width: 40rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=projects.style.css.map */

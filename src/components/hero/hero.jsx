@@ -49,7 +49,13 @@ function Hero() {
         <FaAngleDoubleDown className="scroll__arrows" />
       </div>
       <div className="contact__ball">
-        <BiEnvelope className="contact__icon" />
+        <a
+          className="contact__ball__mail"
+          href="mailto:milan_cirkovic@yahoo.com"
+          target="_blank"
+        >
+          <BiEnvelope className="contact__icon" />
+        </a>
       </div>
     </div>
 

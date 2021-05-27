@@ -1,13 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+$color1: #432f8f;
+$color2: #db2779;
+$color3: #a4db32;
+$color4: #5e3ddb;
+$color5: #8f134b;
+
 .contact__container {
   width: 100%;
   min-height: 100vh;
   background-color: #432f8f;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
 
-  .contact__section {
+  .contact__middle {
     color: #ffffff;
-    font-size: 5vh;
+    min-height: 40vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background-color: rgba(0, 0, 0, 0.2);
+
+    .contact__message {
+      margin: auto;
+      font-size: 7vh;
+      text-align: center;
+
+      .contact__span {
+        color: $color2;
+      }
+    }
+  }
+  .contact__icons {
+    height: 10vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    // background-color: rgba($color: #000000, $alpha: 0.2);
+    color: $color2;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .contact__icon__l {
+      // background-color: rgba(0, 0, 0, 0.2);
+      font-size: 1.8rem;
+      margin: auto;
+      cursor: pointer;
+      &:hover {
+        color: #ffffff;
+        transition: 0.2s;
+      }
+    }
+
+    .contact__icon__g {
+      // width: 5rem;
+      // height: 100%;
+      // background-color: rgba(0, 0, 0, 0.2);
+      font-size: 1.8rem;
+      margin: auto;
+      cursor: pointer;
+      &:hover {
+        color: #ffffff;
+        transition: 0.2s;
+      }
+    }
+
+    .contact__mail {
+      // background-color: rgba(0, 0, 0, 0.2);
+      margin: auto;
+
+      .contact__mail__address {
+        text-decoration: none;
+        font-family: "Libre Baskerville", serif;
+        color: $color2;
+        letter-spacing: 0.1rem;
+      }
+    }
+    .contact__mobile {
+      // background-color: rgba(0, 0, 0, 0.2);
+      margin: auto;
+
+      color: $color2;
+      letter-spacing: 0.2rem;
+    }
   }
 }
+
+.contact__footer {
+  // background-color: rgba(0, 0, 0, 0.2);
+  color: $color4;
+  height: 10vh;
+  margin: auto;
+  margin-bottom: 0;
+  display: flex;
+  text-align: center;
+  font-size: 1.1rem;
+  // opacity: 0.5;
+}
+
+//   .contact__right {
+//     margin: auto;
+//     margin-bottom: 0;
+//     height: 50vh;
+//     width: 15%;
+//     background-color: rgba(0, 0, 0, 0.2);
+//     display: flex;
+
+//     .contact__mobile {
+//       position: absolute;
+//       align-items: flex-start;
+//       font-size: 1rem;
+//       letter-spacing: 0.2rem;
+//       color: $color2;
+//       // transform: rotate(90deg);
+//     }
+//     .contact__mail {
+//       margin-top: 5rem;
+//       position: relative;
+//       .contact__mail__address {
+//         position: absolute;
+//         text-decoration: none;
+//         font-size: 1rem;
+//         letter-spacing: 0.2rem;
+//         color: $color2;
+//         // transform: rotate(90deg);
+//       }
+//       // .contact__line {
+//       //   width: 70px;
+//       //   height: 1px;
+//       //   background-color: $color2;
+//       // }
+//     }
+//   }
+//   .contact__icons {
+//     color: $color2;
+
+//     .contact__icon {
+//       font-size: 1.8rem;
+//       margin: 1rem;
+//       cursor: pointer;
+//       &:hover {
+//         color: #ffffff;
+//         transition: 0.2s;
+//       }
+//     }
+//   }
+
+// }

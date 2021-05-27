@@ -14,9 +14,9 @@ function ScrollAnimation() {
   const tl = gsap.timeline()
 
   useEffect(() => {
-    tl.from(".about__scroll", { yPercent: 100 })
+    tl.from(".about__scroll", { xPercent: -100 })
     tl.from(".projects__scroll", { xPercent: 100 })
-    tl.from(".contact__scroll", { xPercent: -100 })
+    tl.from(".contact__scroll", { yPercent: 100 })
     ScrollTrigger.create({
       animation: tl,
       trigger: ".scroll__container",
