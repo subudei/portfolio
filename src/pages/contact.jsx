@@ -4,7 +4,6 @@ import "./contact.style.css"
 import gsap from "gsap"
 // import { ScrollTrigger } from "gsap/ScrollTrigger"
 
-// import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 // import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn"
 import { FiLinkedin } from "@react-icons/all-files/fi/FiLinkedin"
 import { FiGithub } from "@react-icons/all-files/fi/FiGithub"
@@ -18,44 +17,9 @@ function Contact() {
     tl.to(".contact__span", {
       color: "#db2779",
       // fontStyle: "italic",
-      duration: 5,
+      duration: 2,
+      ease: "power4.out",
     })
-    //   tl.from(".contact__icon__l", {
-    //     scrollTrigger: {
-    //       trigger: ".contact__icon__l",
-    //       start: "+=3100",
-    //       // end: "+=4000",
-    //       markers: true,
-    //     },
-    //     y: 100,
-    //     // delay: 2,
-    //     // x: "-100%",
-    //   })
-    // tlContact.from(".contact__icon__g", {
-    //   // x: "-100%",
-    //   y: 100,
-    // })
-    // tlContact.from(".contact__mobile", {
-    //   y: 100,
-    // })
-    // tlContact.from(".contact__mail", {
-    //   y: 100,
-    // })
-    // ScrollTrigger.create({
-    //   animation: tlContact,
-    //   trigger: ".contact__container",
-    //   start: "top top",
-    //   end: "+=1000",
-    //   markers: true,
-    //   scrub: true,
-    //   pin: true,
-
-    //   // snap: {
-    //   //   snapTo: ["0%", "100%", "200%", "300%", "400%"],
-    //   //   duration: 0.5,
-    //   // },
-    //   anticipatePin: 1,
-    //   // })
   }, [])
 
   return (

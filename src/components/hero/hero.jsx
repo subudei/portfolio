@@ -10,13 +10,15 @@ import { BiEnvelope } from "@react-icons/all-files/bi/BiEnvelope"
 
 import IntroAnimation from "../intro-animation/introAnimation"
 
+import Programmer from "../../assets/programmer.inline.svg"
+// import CodeScreen from "../../assets/code.inline.svg"
+
 function Hero() {
   gsap.registerPlugin(ScrollTrigger)
 
   useEffect(() => {
     gsap.to(".scroll__arrows", {
       duration: 1,
-      // scale: 1.3,
       y: "3vh",
       repeat: -1,
       yoyo: true,
@@ -31,6 +33,12 @@ function Hero() {
       opacity: 1,
       duration: 1,
       ease: "power2.out",
+    })
+    gsap.from(".hero__svg", {
+      delay: 1,
+      opacity: 0,
+      scale: 0.6,
+      duration: 1,
     })
   }, [])
 
@@ -48,6 +56,13 @@ function Hero() {
         <CgMouse className="scroll__mouse" />
         <FaAngleDoubleDown className="scroll__arrows" />
       </div>
+      <div className="hero__svg">
+        <Programmer className="svg__style">
+          <a href="https://storyset.com/work" target="_blank">
+            Illustration by Freepik Storyset
+          </a>
+        </Programmer>
+      </div>
       <div className="contact__ball">
         <a
           className="contact__ball__mail"
@@ -57,6 +72,7 @@ function Hero() {
           <BiEnvelope className="contact__icon" />
         </a>
       </div>
+      {/* <a href="https://storyset.com/work">Illustration by Freepik Storyset</a> */}
     </div>
 
     // <div className="hero__contact__note">

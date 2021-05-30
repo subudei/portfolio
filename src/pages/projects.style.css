@@ -1,56 +1,80 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 .projects__page__container {
   width: 100%;
-  min-height: 100vh;
-  background-color: #8f134b;
+  min-height: 100%;
+  background-color: #5e3ddb;
+}
+
+.projects__page__container .project__intro {
+  height: 20vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  text-align: center;
 }
 
-.projects__page__container .projects__title {
+.projects__page__container .project__intro .projects__title {
   color: #ffffff;
   font-family: "Lato", sans-serif;
+  letter-spacing: 0.2rem;
+  margin: auto;
 }
 
-.projects__page__container .project__container {
+.projects__page__container .projects__container {
   margin: auto;
-  margin-top: 5rem;
   width: 80%;
-  height: 40rem;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projects__page__container .projects__container .project__container {
+  margin: auto;
+  width: 45%;
+  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
 }
 
-.projects__page__container .project__container .img__container {
-  width: 50%;
-  background-color: #8f134b;
+.projects__page__container .projects__container .project__container .img__container {
   position: absolute;
-}
-
-.projects__page__container .project__container .project__description {
-  position: absolute;
-  top: 5rem;
-  left: 30rem;
-  height: 10rem;
-  width: 40rem;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #ffffff;
-  font-size: 1rem;
+  left: 0;
+  width: 55%;
+  margin: auto;
+  -webkit-box-shadow: 0 10px 6px -6px #5d4aaa;
+          box-shadow: 0 10px 6px -6px #5d4aaa;
+  -webkit-box-shadow: 5px 5px 15px 1px #000000;
+          box-shadow: 5px 5px 15px 1px #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+
+.projects__page__container .projects__container .project__container .img__container:hover {
+  opacity: 1;
+  -webkit-transform: 0.4s;
+          transform: 0.4s;
+}
+
+.projects__page__container .projects__container .project__container .project__description {
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  width: 55%;
+  height: 35%;
+  background-color: #432f8f;
+  background-color: rgba(67, 47, 143, 0.6);
+  color: #a4db32;
+  color: #ffffff;
+  -webkit-box-shadow: 5px 5px 15px 1px #000000;
+          box-shadow: 5px 5px 15px 1px #000000;
 }
 /*# sourceMappingURL=projects.style.css.map */

@@ -4,8 +4,11 @@ import "./introAnimation.styles.css"
 import { gsap } from "gsap"
 
 function IntroAnimation() {
-  //   const tl = gsap.timeline({ delay: 2, repeat: -1 })
-  const tl = gsap.timeline({ delay: 1 })
+  const tl = gsap.timeline({
+    delay: 2,
+    repeat: -1,
+  })
+  // const tl = gsap.timeline({ delay: 1 })
 
   useEffect(() => {
     tl.to(".i__drop", { opacity: 1, duration: 0.1 }, "-=0.1")

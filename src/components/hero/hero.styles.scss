@@ -14,8 +14,9 @@ $color5: #8f134b;
   position: relative;
   display: flex;
   flex-direction: column;
+
   align-items: flex-start;
-  padding-left: 5rem;
+  // padding-left: 5rem;
 
   .hero__logo {
     position: absolute;
@@ -37,21 +38,24 @@ $color5: #8f134b;
       line-height: 2.5;
     }
   }
-  // .menu__container{
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   height: 25vh;
-  //   max-width: ;
-  // }
+  .hero__svg {
+    position: absolute;
+    right: 10%;
+    bottom: -10%;
+    // top: 50%;
+    width: 30%;
+    // opacity: 0;
+  }
   .scroll__icon {
     // margin: 2rem auto;
-    width: 10vh;
+    width: 100%;
     height: 10vh;
     // background-color: rgba(0, 0, 0, 0.1);
+    margin: auto;
     position: absolute;
     top: 70vh;
-    left: 45vw;
+    // left: 45vw;
+
     display: flex;
     flex-direction: column;
     align-items: center;

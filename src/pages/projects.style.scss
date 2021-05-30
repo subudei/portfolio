@@ -8,42 +8,77 @@ $color5: #8f134b;
 
 .projects__page__container {
   width: 100%;
-  min-height: 100vh;
-  background-color: #8f134b;
-  display: flex;
-  flex-direction: column;
+  min-height: 100%;
+  background-color: $color4;
+  // display: flex;
+  // flex-direction: column;
 
-  .projects__title {
-    color: #ffffff;
-    font-family: "Lato", sans-serif;
+  .project__intro {
+    // background-color: rgba($color: #000000, $alpha: 0.1);
+    height: 20vh;
+    display: flex;
+    text-align: center;
+
+    .projects__title {
+      color: #ffffff;
+      font-family: "Lato", sans-serif;
+      letter-spacing: 0.2rem;
+      margin: auto;
+    }
   }
 
-  .project__container {
+  .projects__container {
     margin: auto;
-    margin-top: 5rem;
     width: 80%;
-    height: 40rem;
+    height: 75vh;
+    // background-color: rgba($color: #000000, $alpha: 0.1);
     display: flex;
-    position: relative;
-
-    .img__container {
-      width: 50%;
-      background-color: $color5;
-      position: absolute;
-    }
-
-    .project__description {
-      position: absolute;
-      top: 5rem;
-      left: 30rem;
-      height: 10rem;
-      width: 40rem;
-      background-color: rgba(0, 0, 0, 0.2);
-      color: #ffffff;
-      font-size: 1rem;
+    flex-wrap: wrap;
+    .project__container {
+      margin: auto;
+      width: 45%;
+      height: 50%;
       display: flex;
-      align-items: center;
-      justify-content: center;
+
+      // background-color: $color4;
+      // border: 2px solid blue;
+      position: relative;
+
+      .img__container {
+        position: absolute;
+        left: 0;
+        width: 55%;
+        // opacity: 0.6;
+        margin: auto;
+        box-shadow: 0 10px 6px -6px #5d4aaa;
+        box-shadow: 5px 5px 15px 1px #000000;
+        display: flex;
+        align-items: center;
+        &:hover {
+          opacity: 1;
+          transform: 0.4s;
+        }
+      }
+      // .project__wraper {
+      //   position: absolute;
+      //   left: 0;
+      //   width: 55%;
+      //   margin: auto;
+      //   background-color: rgba(0, 0, 0, 0.2);
+      // }
+      .project__description {
+        position: absolute;
+        left: 40%;
+        top: 15%;
+        width: 55%;
+        height: 35%;
+        background-color: $color1;
+        background-color: rgba($color: $color1, $alpha: 0.6);
+
+        color: $color3;
+        color: #ffffff;
+        box-shadow: 5px 5px 15px 1px #000000;
+      }
     }
   }
 }

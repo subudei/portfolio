@@ -1,20 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+$color1: #432f8f;
+$color2: #db2779;
+$color3: #a4db32;
+$color4: #5e3ddb;
+$color5: #8f134b;
+
 .about__container {
   width: 100%;
   min-height: 100vh;
   // background-color: #8f134b;
-  background-color: #5e3ddb;
+  background-color: $color5;
   display: flex;
   align-items: center;
   justify-content: center;
   .about__section {
     margin: 10%;
-    // background-color: rgba(0, 0, 0, 0.2);
     color: #ffffff;
     font-size: 5vh;
-    font-family: "Poppins", sans-serif;
     font-family: "Lato", sans-serif;
   }
 }
